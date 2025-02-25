@@ -11,7 +11,7 @@ function checklogin(){
     console.table([username, password,errorMessage])
 
     if(username === validusername && password === validpassword){
-        window.location.href = "home.html";
+        window.location.href = "index.html";
         alert("login successful")
     }
     else{
