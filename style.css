@@ -197,7 +197,7 @@
 #res img{
     background-size: cover;
     object-fit: cover;
-    width: 1520px;
+    width: 100%;
     opacity: 0.5;
     
 }
@@ -383,4 +383,83 @@
 }
 .send-message input::placeholder{
     font-size: 15px;
+}
+@media only screen and (max-width:480px){
+
+    .navbar {
+        display: none;
+    }
+    #account-btn{
+        display: none;
+    }
+    #home{
+        height: 85vh;
+    }
+    #home h1 {
+        font-size: 27px;
+        margin-bottom: 24px;
+        font-weight: 500;
+    }
+    #home p{
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+        line-height: 1.1rem;    }
+    #res  {
+        display: none;
+        flex-direction: column;
+       
+       
+    }
+    .course-box img {
+        width: 300px;
+        height: 230px;
+        
+    }
+    #feature {
+        padding: 12px;
+    }
+    #feature h1{
+        font-size: 30px;
+    }
+    #course-title{
+        font-size: 30px;
+    }
+    .fea-box p{
+        font-size: 17px;
+
+    }
+    #course{
+        padding: 20px ;
+    }
+    .course-info{
+        margin: 0px;
+    }
+    #course-para {
+        text-align: center;
+        font-size: 15px;
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 2rem;
+    }
+
+    #regis-form {
+        position: absolute;
+        top: 23rem;
+        /* left: 11rem; */
+    }
+
+    .last-sec {
+        /* display: flex;
+        justify-content: space-between; */
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        margin: 0px;
+    }
+
+    .expri-box {
+        
+        margin: 3rem 3rem 0 1rem;
+    }
 }
